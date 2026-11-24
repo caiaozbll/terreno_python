@@ -1,0 +1,17 @@
+# variaveis: largura, comprimento, area, preco #
+largura = float
+comprimento = float
+area = float
+preco = float
+
+# Qual a area do terreno? #
+largura = float(input("qual a largura do terreno?"))
+comprimento = float(input("qual o comprimento do terreno?"))
+area = largura * comprimento
+print("A area do terreno é: ", area, "m²")
+
+# Qual o preço do terreno? #
+
+preco = float(input("qual o preço do m²?"))
+preco = area * preco
+print("O preço do terreno total é de: ", preco)
